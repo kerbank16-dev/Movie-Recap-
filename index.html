@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recap App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Movie Recap App</h1>
+    
+    <!-- ဗီဒီယိုတင်တဲ့ အပိုင်း -->
+    <div class="input-section">
+        <p>ဗီဒီယိုတင်ပြီး စာသားပြောင်းမယ့်နေရာ</p>
+        <input type="file" id="videoUpload" accept="video/*">
+        <button id="startBtn">Start</button>
+    </div>
+
+    <!-- ရလဒ်ပြသမယ့် အပိုင်း -->
+    <div class="result-section" id="resultSection" style="display: none;">
+        
+        <h3>မူရင်းစာသား (Transcription)</h3>
+        <textarea id="originalText" rows="4" placeholder="မူရင်းစာသား ဒီမှာ ပေါ်လာပါမယ်..."></textarea>
+        
+        <h3>မြန်မာလို ဘာသာပြန် (Translation)</h3>
+        <textarea id="translatedText" rows="4" placeholder="မြန်မာစာသား ဒီမှာ ပေါ်လာပါမယ်..."></textarea>
+        
+        <h3>AI အသံ (AI Audio)</h3>
+        <audio id="audioPlayer" controls style="width: 100%; margin-top: 10px;">
+            <source src="" type="audio/mpeg">
+            သင့်ဖုန်းက အသံဖိုင်ကို မဖွင့်နိုင်ပါဘူး။
+        </audio>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

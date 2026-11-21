@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background: #eaf5ff;
+    color: #174ec6;
+    padding: 24px;
+    text-align: center;
+}
+button {
+    background: #174ec6;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+/* အသစ်ထည့်တဲ့ အပိုင်း */
+.input-section {
+    margin-bottom: 20px;
+}
+
+.result-section {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: left;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
